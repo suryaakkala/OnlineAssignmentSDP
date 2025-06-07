@@ -1,0 +1,72 @@
+body {
+  background-image: url('../images/Designer-4.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  color: #fff;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+
+/* Semi-transparent overlay */
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity for desired darkness */
+  z-index: 1;
+}
+
+/* Ensure content appears above the overlay */
+h2, div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Header styling */
+h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better contrast */
+}
+
+/* Links styling */
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+a:hover {
+  color: #ddd;
+}
+
+/* Form field styling */
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  background-color: rgba(255, 255, 255, 0.8); /* Lighten input fields */
+  color: #333;
+  border-radius: 4px;
+}
+
+/* Button styling */
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
