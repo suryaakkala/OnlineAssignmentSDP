@@ -83,7 +83,7 @@ src/
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/<your-repo-path>
+git clone [https://github.com/suryaakkala/OnlineAssignmentSDP.git]
 cd suryaakkala-onlineassignmentsdp
 ```
 
