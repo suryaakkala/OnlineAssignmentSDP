@@ -102,7 +102,7 @@ cd OnlineAssignmentSDP
 
 | Name             | Role               | GitHub                             |
 |------------------|--------------------|------------------------------------|
-| Abburi Yasaswini | Backend Developer  | [GitHub Profile](#)                |
+| Abburi Yasaswini | Backend Developer  | [GitHub Profile](https://github.com/2200031646) |
 | Sruthi Kanneti   | Resource Gathering | [GitHub Profile](https://github.com/Sruthi-3-0) |
 | Surya Akkala     | Team Lead, Frontend Dev | [GitHub Profile](https://github.com/SuryaAkkala) |
 
