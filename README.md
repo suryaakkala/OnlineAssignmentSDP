@@ -83,8 +83,8 @@ src/
 1. **Clone the repository**
 
 ```bash
-git clone [https://github.com/suryaakkala/OnlineAssignmentSDP.git]
-cd suryaakkala-onlineassignmentsdp
+git clone https://github.com/suryaakkala/OnlineAssignmentSDP.git
+cd OnlineAssignmentSDP
 ```
 
 2. **Configure `application.properties`** with your MySQL DB credentials.
